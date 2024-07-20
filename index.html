@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="canban.html">link</a>
+     <div class="container">
+        <div class="sign-in-form register" id="regp">
+            <h2>Register</h2>
+            <form onsubmit="return false">
+                <div class="input-group">
+                    <label >name
+                        <input type="text" id="name" name="name" required>
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label >Email
+                        <input type="email" id="email" name="email" required>
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label>Password
+                        <input type="password" id="password" name="password" required>
+                    </label>
+                </div>
+                <button type="submit" onclick="register(event) ; registerB(event)" id="reg">Register</button>
+                <a href="login.html">Do you want to login ?</a>                
+            </form>
+        </div>            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

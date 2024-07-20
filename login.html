@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <a href="canban.html">link</a> -->
+
+    <div class="container">
+       <div class="sign-in-form register" id="logp">
+        <h2>Login</h2>
+        <form onsubmit="return false">
+            <div class="input-group ">
+                <label >Email
+                    <input type="email" id="l-email" name="email" required>
+                </label>
+            </div>
+            <div class="input-group">
+                <label >Password
+                    <input type="password" id="l-password" name="password" required>
+                </label>
+            </div>
+                  <button type="submit" onclick="login(event)" id="log">login</button>
+               <a href="index.html">Do you want to register ?</a>                
+           </form>
+       </div>            
+       </div>
+   </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
